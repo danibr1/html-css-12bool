@@ -1,0 +1,138 @@
+/* ######################################################## 
+12 BOOL FRAMEWORK
+##########################################################*/
+
+/* GENERAL */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+p{
+    line-height: 1.5;
+}
+
+
+/* CONTAINER *****************************
+ Container centrato di dimensione 1170px */
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* Container CLEARFIX */
+.container::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* COLUMS *******************************/
+[class*="col-"] {
+    /* Rende le colonne Float */
+    float: left;
+    /* Spazio tra colonne */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Colums .PADDING-0 
+Classe .padding-0 per azzerare il padding interno*/
+[class*="col-"].padding-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+/* ######################################################## 
+12 COLUMS layout
+##########################################################*/
+
+.col-12{
+    width: 100%;
+}
+.col-11{
+    width: calc((100% / 12) * 11);
+}
+.col-10{
+    width: calc((100% / 12) * 10);
+}
+.col-9{
+    width: calc((100% / 12) * 9);
+}
+.col-8{
+    width: calc((100% / 12) * 8);
+}
+.col-7{
+    width: calc((100% / 12) * 7);
+}
+.col-6{
+    width: calc((100% / 12) * 6);
+}
+.col-5{
+    width: calc((100% / 12) * 5);
+}
+.col-4{
+    width: calc((100% / 12) * 4);
+}
+.col-3{
+    width: calc((100% / 12) * 3);
+}
+.col-2{
+    width: calc((100% / 12) * 2);
+}
+.col-1{
+    width: calc(100% / 12);
+}
+
+/* ######################################################## 
+OFFSET - creazione spazi vuoti 
+##########################################################*/
+
+.offset-1{
+    margin-left: calc(100% / 12);
+}
+.offset-2{
+    margin-left: calc(100% / 12) * 2;
+}
+.offset-3{
+    margin-left: calc(100% / 12) * 3;
+}
+.offset-4{
+    margin-left: calc(100% / 12) * 4;
+}
+.offset-5{
+    margin-left: calc(100% / 12) * 5;
+}
+.offset-6{
+    margin-left: calc(100% / 12) * 6;
+}
+.offset-7{
+    margin-left: calc(100% / 12) * 7;
+}
+.offset-8{
+    margin-left: calc(100% / 12) * 8;
+}
+.offset-9{
+    margin-left: calc(100% / 12) * 9;
+}
+.offset-10{
+    margin-left: calc(100% / 12) * 10;
+}
+.offset-11{
+    margin-left: calc(100% / 12) * 11;
+}
+.offset-12{
+    margin-left: calc(100% / 12) * 12;
+}
+
