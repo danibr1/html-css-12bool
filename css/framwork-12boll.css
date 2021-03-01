@@ -1,5 +1,5 @@
 /* ######################################################## 
-12 BOOL FRAMEWORK
+12 BOOL FRAMEWORK - MAX-WIDTH 1170px
 ##########################################################*/
 
 /* GENERAL */
@@ -20,6 +20,9 @@ img{
 p{
     line-height: 1.5;
 }
+p:first-letter {
+    text-transform: uppercase; 
+}
 
 
 /* CONTAINER *****************************
@@ -36,26 +39,25 @@ p{
     clear: both;
 }
 
-/* COLUMS *******************************/
+/* COLUMNS *******************************/
 [class*="col-"] {
-    /* Rende le colonne Float */
+    /* Rende tutte le colonne Float */
     float: left;
     /* Spazio tra colonne */
     padding-left: 15px;
     padding-right: 15px;
 }
 
-/* Colums .PADDING-0 
-Classe .padding-0 per azzerare il padding interno*/
+/* Columns .PADDING-0 ******************
+NESTING .padding-0 per azzerare il padding interno*/
 [class*="col-"].padding-0 {
     padding-left: 0px;
     padding-right: 0px;
 }
 
 
-
 /* ######################################################## 
-12 COLUMS layout
+12 COLUMNS layout
 ##########################################################*/
 
 .col-12{
@@ -97,42 +99,43 @@ Classe .padding-0 per azzerare il padding interno*/
 
 /* ######################################################## 
 OFFSET - creazione spazi vuoti 
-##########################################################*/
+########################################################
+*/
 
 .offset-1{
     margin-left: calc(100% / 12);
 }
 .offset-2{
-    margin-left: calc(100% / 12) * 2;
+    margin-left: calc((100% / 12) * 2);
 }
 .offset-3{
-    margin-left: calc(100% / 12) * 3;
+    margin-left: calc((100% / 12) * 3);
 }
 .offset-4{
-    margin-left: calc(100% / 12) * 4;
+    margin-left: calc((100% / 12) * 4);
 }
 .offset-5{
-    margin-left: calc(100% / 12) * 5;
+    margin-left: calc((100% / 12) * 5);
 }
 .offset-6{
-    margin-left: calc(100% / 12) * 6;
+    margin-left: calc((100% /12) * 6);
 }
 .offset-7{
-    margin-left: calc(100% / 12) * 7;
+    margin-left: calc((100% / 12) * 7);
 }
 .offset-8{
-    margin-left: calc(100% / 12) * 8;
+    margin-left: calc((100% / 12) * 8);
 }
 .offset-9{
-    margin-left: calc(100% / 12) * 9;
+    margin-left: calc((100% / 12) * 9);
 }
 .offset-10{
-    margin-left: calc(100% / 12) * 10;
+    margin-left: calc((100% / 12) * 10);
 }
 .offset-11{
-    margin-left: calc(100% / 12) * 11;
+    margin-left: calc((100% / 12) * 11);
 }
 .offset-12{
-    margin-left: calc(100% / 12) * 12;
+    margin-left: calc((100% / 12) * 12);
 }
 
